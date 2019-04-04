@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.bigbox{
+    width: 100%;
+	height: 2000px;
+	margin: 0 auto;
+	background-color: #E7E7E7;
+	/*最大宽度*/
+	max-width: 640px;
+	/*最小宽度*/
+	min-width: 320px;
+	border: 1px solid #DEDFDE;
+}
+/*头部箭头开始*/
+.arrow_heard {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(33, 195, 255);
+}
+.arrow_heard > p:nth-child(1) {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.arrow_heard > p:nth-child(2) {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.arrow_heard > p:nth-child(3) {
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow_heard > p:nth-child(3) > b {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+}
+/*头部箭头结束*/
+/*车部分开始*/
+.bus{
+	width: 100%;
+	height: 619px;
+	background: #FFFFFF;
+	position: relative;
+}
+.bus>div{
+	width: 95%;
+	height: 50px;
+
+	position:absolute;
+	left: 15px;
+	top: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    cursor: pointer;
+}
+.bus>div>p{
+	font-size: 30px;
+	color: #FFFFFF;
+}
+/*车部分结束*/
+/*景点内容开始*/
+.attraction{
+	height: 224px;
+	background: #FFFFFF;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.attraction>div{
+	width: 25%;
+	height: 130px;
+/*	background: red;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.attraction>div>p{
+	font-size: 25px;
+}
+/*景点内容结束*/
+/*当季热推荐开始*/
+.hot{
+	width: 100%;
+	height: 76px;
+	background: #FFFFFF;
+	border-top: 1px solid #efeff7;
+	border-bottom: 1px solid #efeff7;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.hot>p{
+	margin-left: 20px;
+	font-size: 30px;
+	color: #393c39;
+	font-weight: 700;
+}
+.hot_pro{
+	width: 100%;
+	height: 313px;
+	background: #FFFFFF;
+	display: flex;
+}
+.hot_left{
+	width: 50%;
+	height: 313px;
+	border-right: 1px solid #efeff7;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.hot_left>div{
+	width: 95%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.hot_left>div>p:nth-child(1){
+	font-size: 30px;
+	color: #6b696b;
+}
+.hot_left>div>p:nth-child(2){
+	font-size: 25px;
+	color: #bdbebd;
+}
+.hot_right{
+	width: 50%;
+	height: 313px;
+
+}
+.hot_right>div{
+	width: 100%;
+	height: 156px;
+    border-bottom: 1px solid #EFEFF7;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.hot_right>div>div{
+	width: 50%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+/*    background: red;*/
+}
+.hot_right>div>div>p:nth-child(1){
+	font-size: 25px;
+}
+.hot_right>div>div>p:nth-child(2){
+	font-size: 18px;
+	color: #BDBEBD;
+}
+/*当季热推荐结束*/
+/*乡村民宿部分开始*/
+.person{
+	width: 100%;
+	height: 75px;
+	border-top: 1px solid #EFEFF7;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.person>p{
+	font-size: 30px;
+	color: #4a4d4a;
+	font-weight: 700;
+	margin-left: 20px;
+}
+.person_pro{
+	width: 100%;
+	height: 385px;
+	background: #FFFFFF;
+}
+.person_top{
+	width: 100%;
+	height: 192px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #EFEFF7;
+	display: flex;
+}
+.person_bot{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.person_bot>div{
+	width: 25%;
+	height: 192px;
+	/*background: red;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid #EFEFF7;
+}
+.person_bot>div>p:nth-child(2){
+	font-size: 25px;
+	color: #7b797b;
+}
+.person_bot>div>p:nth-child(3){
+	font-size: 20px;
+	color: #ff3031;
+}
+/*乡村民宿部分结束*/
+/*人在旅途部分开始*/
+.tu{
+	width: 100%;
+	height: 75px;
+	background: #FFFFFF;border: 1px solid #EFEFF7;
+	font-size: 30px;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.tu>p{
+	margin-left: 20px;
+}
+.tu_pro{
+	width: 100%;
+	height: 294px;
+	background: #FFFFFF;
+	border: 1px solid #EFEFF7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tu_pro>div{
+	width: 95%;
+	height: 270px;
+/*	background: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.tu_title{
+	width: 100%;
+	height: 40px;
+	/*background: yellow;*/
+	font-size: 20px;
+	line-height: 26px;
+}
+.tu_content{
+	width: 100%;
+	height: 202px;
+	
+/*	background: orange;*/
+	display: flex;
+	justify-content: space-between;
+
+}
+.tu_content>p{
+	width: 45%;
+	height: 150px;
+/*	background: yellow;*/
+	font-size: 20px;
+	color: #adead;
+}
+/*人在旅途部分结束*/
+/*畅想乐游部分开始*/
+.dream{
+	width: 100%;
+	height: 74px;
+	border: 1px solid #EFEFF7;
+	background: #FFFFFF;
+	display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.dream>p{
+	font-size: 30px;
+   font-weight: 700;
+   margin-left: 20px;
+   
+}
+.dream_pro{
+	width: 100%;
+	height: 609px;
+	background: #FFFFFF;
+	border: 1px solid #EFEFF7;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.dream_pro>div{
+	width: 47%;
+	/*height: 276px;
+	background: yellow;*/
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+}
+.dream_pro>div>p:nth-child(2){
+	font-size: 25px;
+	color: #393C39;
+	
+}
+.dream_pro>div>p:nth-child(3){
+	font-size: 25px;
+	color: #393C39;
+	display: flex;
+	justify-content: space-between;
+	color: #f7c329;
+	
+}
+.dream_pro>div>p:nth-child(3)>span{
+	color: #f7c329;
+	
+}
+.dream_pro>div>p:nth-child(3)>b{
+	color: #a5a2a5;
+	
+}
+/*畅想乐游部分结束*/
