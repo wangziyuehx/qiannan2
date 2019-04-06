@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.bigbox{
+    width: 100%;
+	/*height: 2000px;*/
+	margin: 0 auto;
+	background-color: #E7E7E7;
+	/*最大宽度*/
+	max-width: 640px;
+	/*最小宽度*/
+	min-width: 320px;
+	border: 1px solid #DEDFDE;
+}
+/*头部箭头开始*/
+.arrow_heard {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(33, 195, 255);
+}
+.arrow_heard > p:nth-child(1) {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.arrow_heard > p:nth-child(2) {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.arrow_heard > p:nth-child(3) {
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow_heard > p:nth-child(3) > b {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+}
+/*头部箭头结束*/
+/*新闻动态部分开始*/
+.news{
+	width: 100%;
+	height: 85px;
+	background: #00517b;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+.news>li{
+	width: 15%;
+	height: 85px;
+	display: flex;
+	color: #FFFFFF;
+	justify-content:center;
+	align-items: center;
+	font-size: 20px;
+}
+/*新闻动态部分结束*/
+/*大图部分开始*/
+.banner14{
+	width: 100%;
+	height: 404px;
+	background: url(../img/banner15.jpg) no-repeat;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.banner14>p{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+    color: #FFFFFF;
+	background: rgba(45,45,45,0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*大图部分结束*/
+/*贵安新闻部分开始*/
+.guian_news{
+	width: 100%;
+	height: 643px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+}
+.guian_news>div{
+	width: 95%;
+	background: red;
+	height: 643px;
+	box-sizing: border-box;
+	border: 1px solid #EFEFF7;
+}
+.guian_news>div>div{
+	width:100%;
+	background: #7b7b7b;
+	height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guian_news>div>div>p{
+	width:20%;
+	height: 84px;
+	font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guian_news>div>div>p:hover{
+	width:20%;
+	background: #004d73;
+	height: 84px;
+	font-size: 25px;
+	color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guian_news>div>ul{
+	width:100%;
+	background: #FFFFFF;
+	height: 558px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.guian_news>div>ul>li{
+	list-style: initial;
+	line-height: 88px;
+	width:90%;
+	height: 88px;
+	border-bottom: 1px solid #EFEFF7;
+	font-size: 27px;
+
+}
+.guian_news>div>ul>button{
+	
+	width:80%;
+	height: 88px;
+	border: 1px solid #EFEFF7;
+	font-size: 27px;
+	background: #7B7B7B;
+	border-radius: 10px;
+
+}
+/*贵安新闻部分结束*/
+/*国务院文件部分开始*/
+.file{
+	width: 100%;
+	height: 837px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.file>div{
+	width: 95%;
+	height: 837px;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+
+}
+.file>div>div{
+	width: 48%;
+	height: 150px;
+	background: #084963;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center
+
+}
+.file>div>div>p{
+	font-size: 25px;
+	color: #FFFFFF;
+
+}
+/*国务院文件部分结束*/
+/*贵安旅游开始*/
+.ga_tourism{
+	width: 100%;
+	height: 523px;
+	background: #FFFFFF;
+}
+.title5{
+	width: 100%;
+	height: 91px;
+	background: #004d73;
+	display: flex;
+     align-items: center;
+}
+.title5>p{
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-left: 20px;
+}
+.pro5{
+	width: 100%;
+	height: 432px;
+	/*background: red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pro5>div{
+	width: 95%;
+	height: 412px;
+	/*background: yellow;*/
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-start;
+}
+.pro5>div>p{
+	width: 40%;
+	height: 330px;
+	/*background: orange;*/
+	font-size: 30px;
+}
+/*贵安旅游结束*/
