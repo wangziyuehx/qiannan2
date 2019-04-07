@@ -235,3 +235,71 @@
 	font-size: 30px;
 }
 /*贵安旅游结束*/
+/*在线服务部分开始*/
+.ga_inline{
+	width: 100%;
+	height: 523px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #EFEFF7;
+}
+.title6{
+	width: 100%;
+	height: 91px;
+	background: #004d73;
+	display: flex;
+     align-items: center;
+}
+.title6>p{
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-left: 20px;
+}
+.pro6{
+	width: 100%;
+	height: 432px;
+	/*background: red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pro6>div{
+	width: 95%;
+	height: 412px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+	
+}
+.pro6>div>div{
+	width: 47%;
+	height: 189px;
+	background: #738284;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	font-size: 30px;
+}
+/*在线服务部分结束*/
+/*底部开始*/
+.footer{
+	width: 100%;
+	height: 158px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer>div{
+	width: 90%;
+	height: 140px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.footer>div>p{
+	font-size: 25px;
+}
+/*底部结束*/
