@@ -604,7 +604,7 @@ color: #ffffed;
     cursor: pointer;
 }
 .movie_pro>ul>li:nth-child(1){
-	background: url(../images/movie1.jpg) no-repeat;
+	background: url(../img/hhmovie1.jpg) no-repeat;
 }
 .movie1{
 	display: flex;
@@ -644,16 +644,16 @@ color: #ffffed;
 	color: #ffffff;
 }
 .movie_pro>ul>li:nth-child(2){
-	background: url(../images/movie2.jpg) no-repeat;
+	background: url(../img/hhmovie2.jpg) no-repeat;
 }
 .movie_pro>ul>li:nth-child(3){
-	background: url(../images/movie3.jpg) no-repeat;
+	background: url(../img/hhmovie3.jpg) no-repeat;
 }
 .movie_pro>ul>li:nth-child(4){
-	background: url(../images/movie4.jpg) no-repeat;
+	background: url(../img/hhmovie4.jpg) no-repeat;
 }
 .movie_pro>ul>li:nth-child(5){
-	background: url(../images/movie5.jpg) no-repeat;
+	background: url(../img/hhmovie5.jpg) no-repeat;
 }
 /*电影部分结束*/
 /*民宿部分开始*/
