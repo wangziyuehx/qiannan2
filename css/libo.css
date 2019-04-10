@@ -71,9 +71,9 @@
 	background:#FFFFFF;
 	border-radius: 5px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	font-size: 25px;
+	font-size: 20px;
 }
 .ban_search>div>b{
 	color: #dedbde;
